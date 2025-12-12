@@ -23,7 +23,7 @@ with header:
 
     with col2:
         try:
-            st.image(r"C:\Users\risha\work\D Optimal DOE\download.png", width=120)
+            st.image("download.png", width=120)
         except:
             st.write("⚠️ Logo not found")
 
